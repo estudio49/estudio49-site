@@ -60,7 +60,8 @@
       '<span class="tag" id="e49-where"></span>' +
       '<button id="e49-undo" disabled title="Desfazer (Ctrl+Z)">Desfazer</button>' +
       '<button id="e49-save" class="pri" title="Salvar (Ctrl+S)">Salvar</button>' +
-      '<button id="e49-pub" title="Salva e atualiza a cópia de teste que está no ar">Publicar</button>' +
+      '<button id="e49-pub" title="Salva e atualiza a cópia de teste que está no ar">Publicar teste</button>' +
+      '<button id="e49-pubo" class="pri" title="Salva e atualiza o site oficial, estudio49.com.br">Publicar no site</button>' +
       '<button id="e49-exit">Sair</button>' +
     '</div>' +
     '<div class="insp" id="e49-insp" hidden>' +
@@ -447,19 +448,29 @@
     if (publishing) return;
     if (!confirm("Isso salva as mudanças e atualiza a cópia de teste que está no ar (https://vinipn.github.io/e49-site-teste/). Continuar?")) return;
     publishing = true;
-    var btn = $("e49-pub"); btn.disabled = true; btn.textContent = "Publicando...";
+    run("e49-pub", "/__publish", "Publicar teste", "Publicado. Em cerca de 1 minuto está no ar.");
+  }
+  function publishOfficial() {
+    if (publishing) return;
+    if (!confirm("Isso salva as mudanças e atualiza o SITE OFICIAL (https://estudio49.com.br), que o público vê. Continuar?")) return;
+    run("e49-pubo", "/__publish-oficial", "Publicar no site", "Publicado no site oficial. Em cerca de 1 minuto está no ar.");
+  }
+  function run(btnId, url, label, okMsg) {
+    publishing = true;
+    var btn = $(btnId); btn.disabled = true; btn.textContent = "Publicando...";
     save().then(function (ok) {
       if (!ok) throw new Error("save");
-      return fetch("/__publish", { method: "POST" });
+      return fetch(url, { method: "POST" });
     }).then(function (r) {
       if (!r.ok) throw new Error("publish");
-      toast("Publicado. Em cerca de 1 minuto está no ar.");
+      toast(okMsg, 4000);
     }).catch(function () {
       toast("Não consegui publicar. Peça ajuda ao Claude.");
-    }).then(function () { publishing = false; btn.disabled = false; btn.textContent = "Publicar"; });
+    }).then(function () { publishing = false; btn.disabled = false; btn.textContent = label; });
   }
   $("e49-pub").addEventListener("click", publish);
-  setTimeout(function () { toast("Dê dois cliques num texto para editar. Depois, Salvar e Publicar.", 7000); }, 600);
+  $("e49-pubo").addEventListener("click", publishOfficial);
+  setTimeout(function () { toast("Dê dois cliques num texto para editar. Depois, Salvar e Publicar no site.", 7000); }, 600);
   $("e49-exit").addEventListener("click", function () {
     if (dirty && !confirm("Tem mudanças sem salvar. Sair mesmo assim?")) return;
     dirty = false;

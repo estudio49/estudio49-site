@@ -1,6 +1,6 @@
 /* (e)studio49 - comportamento do site: menu flutuante, botões, entradas ao rolar, vitrine de exemplos e formulário. */
 (function () {
-  var WA = "5549999819979";
+  var WA = "5549999222050";
   var root = document.documentElement;
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;

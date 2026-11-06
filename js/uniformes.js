@@ -1,6 +1,6 @@
 /* Calculadora de uniformes. Preços por peça (tabela do site antigo, confirmada pelo Vini no briefing). */
 (function () {
-  var WA = "5549999819979";
+  var WA = "5549999222050";
   var MIN = 7;
   var EXTRA = 8; // estampa maior ou nas costas, por peça
   var PRICES = {
