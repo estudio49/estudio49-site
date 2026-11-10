@@ -250,4 +250,24 @@
       window.open("https://wa.me/" + WA + "?text=" + encodeURIComponent(text), "_blank", "noopener");
     });
   }
+
+  // vitrine de serviços (celular): os pontinhos mostram em qual cartão a pessoa está
+  var hsTrack = document.querySelector(".hs-track");
+  var hsDots = document.querySelectorAll(".hs-dots li");
+  if (hsTrack && hsDots.length) {
+    var hsCards = hsTrack.querySelectorAll(".hs-card");
+    var hsUpdate = function () {
+      var edge = hsTrack.getBoundingClientRect().left + (parseFloat(getComputedStyle(hsTrack).paddingLeft) || 0);
+      var best = 0, bestD = Infinity;
+      for (var i = 0; i < hsCards.length; i++) {
+        var d = Math.abs(hsCards[i].getBoundingClientRect().left - edge);
+        if (d < bestD) { bestD = d; best = i; }
+      }
+      if (hsTrack.scrollLeft + hsTrack.clientWidth >= hsTrack.scrollWidth - 4) best = hsCards.length - 1;
+      for (var k = 0; k < hsDots.length; k++) hsDots[k].classList.toggle("on", k === best);
+    };
+    hsTrack.addEventListener("scroll", hsUpdate, { passive: true });
+    window.addEventListener("resize", hsUpdate);
+    hsUpdate();
+  }
 })();

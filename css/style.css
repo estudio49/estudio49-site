@@ -603,3 +603,21 @@ main > section, .footer { position: relative; z-index: 1; }
 .pay-line p { flex: 1 1 100%; margin: 4px 0 0; color: var(--muted); }
 /* no celular a faixa laranja passa por trás do texto da abertura: texto em Serra para manter o contraste AA */
 @media (max-width: 899px) { .page-hero .lead { color: var(--fg); } }
+
+/* vitrine de serviços no celular e no tablet: rola para o lado com o dedo, sem prender a tela */
+.hs-more { display: none; }
+@media (max-width: 899px) {
+  .hs { height: auto; view-timeline: none; }
+  .hs-sticky { position: static; height: auto; overflow: visible; container-type: normal; display: block; padding: clamp(40px, 6vw, 64px) 0 24px; }
+  .hs-head { margin-bottom: 8px; }
+  .hs-head .lead { display: block; }
+  .hs-track { width: auto; overflow-x: auto; overflow-y: hidden; animation: none; transform: none; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; padding: 28px var(--gutter); }
+  .hs-card { scroll-snap-align: start; min-height: 420px; }
+  .hs-card .art { display: flex; }
+  .hs-more { display: block; margin-top: 4px; }
+  .hs-dots { display: flex; justify-content: center; gap: 8px; }
+  .hs-dots li { width: 8px; height: 8px; border-radius: 999px; background: rgba(28, 42, 58, .28); transition: width .3s var(--ease), background-color .3s; }
+  .hs-dots li.on { width: 24px; background: var(--e49-brasa-escura); }
+  .hs-hint { display: flex; justify-content: center; align-items: center; gap: 8px; margin: 12px 0 0; font-weight: 600; color: var(--muted); }
+  .hs-hint .ic { width: 1.1em; height: 1.1em; rotate: 45deg; color: var(--link); }
+}
