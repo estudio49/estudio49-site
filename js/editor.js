@@ -87,7 +87,7 @@
   $("e49-where").textContent = B === "d" ? "tela de computador" : "tela de celular";
 
   /* trocar de página sem sair do modo de edição (os links do site ficam travados aqui) */
-  var PAGES = [["/", "Início"], ["/sistemas/", "Sistemas"], ["/sites/", "Sites"], ["/video-e-fotos/", "Vídeo e redes"], ["/uniformes/", "Uniformes"], ["/contato/", "Contato"], ["/quem-somos/", "Quem somos"], ["/privacidade/", "Privacidade"]];
+  var PAGES = [["/", "Início"], ["/sistemas/", "Sistemas"], ["/sites/", "Sites"], ["/social-media/", "Social media"], ["/trafego-pago/", "Tráfego pago"], ["/uniformes/", "Uniformes"], ["/contato/", "Contato"], ["/quem-somos/", "Quem somos"], ["/privacidade/", "Privacidade"]];
   var pageSel = $("e49-pages");
   PAGES.forEach(function (p) {
     var o = document.createElement("option"); o.value = p[0]; o.textContent = p[1];

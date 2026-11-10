@@ -267,7 +267,7 @@ html.menu-open .ham i:last-child { transform: translateY(-5px) rotate(-45deg); }
 /* a rolagem vertical vira horizontal (só onde o navegador suporta e a pessoa aceita movimento) */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
-    .hs { height: 230vh; view-timeline: --hs block; }
+    .hs { height: 270vh; view-timeline: --hs block; }
     .hs-sticky { position: sticky; top: 0; height: 100dvh; overflow: hidden; container-type: inline-size; display: flex; flex-direction: column; justify-content: center; padding-top: calc(var(--header-h) + 8px); padding-bottom: clamp(36px, 7dvh, 72px); }
     .hs-head { margin-bottom: 0; }
     .hs-track { width: max-content; overflow: visible; scroll-snap-type: none; padding-inline: max(var(--gutter), calc((100cqw - var(--maxw)) / 2 + var(--gutter))); animation: pan linear both; animation-timeline: --hs; animation-range: cover 30.3% cover 69.7%; }
@@ -590,3 +590,16 @@ main > section, .footer { position: relative; z-index: 1; }
 .results strong i { font-style: normal; color: var(--fg); }
 .results span { color: var(--muted); }
 @media (max-width: 899px) { .results { grid-template-columns: 1fr; } .people { grid-template-columns: 1fr; } .ph { aspect-ratio: 4 / 3; } }
+
+/* social media e anúncios: cartão na home, planos e "quem paga o quê" */
+.hs-sm { background: var(--e49-serra); color: var(--e49-nata); --rot: 1.2deg; --dy: 20px; }
+.hs-sm p { color: var(--on-band-muted); }
+.pay { display: grid; gap: 0; }
+.pay-line { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; padding: 20px 0; border-top: 1px solid var(--line); }
+.pay-line:last-child { border-bottom: 1px solid var(--line); }
+.pay-who { padding: 8px 18px; border-radius: var(--e49-raio-pill); border: 2px solid var(--fg); font-weight: 700; }
+.pay-to { background: var(--e49-serra); color: var(--e49-nata); }
+.pay-go { width: 1.3em; height: 1.3em; rotate: 45deg; color: var(--link); }
+.pay-line p { flex: 1 1 100%; margin: 4px 0 0; color: var(--muted); }
+/* no celular a faixa laranja passa por trás do texto da abertura: texto em Serra para manter o contraste AA */
+@media (max-width: 899px) { .page-hero .lead { color: var(--fg); } }

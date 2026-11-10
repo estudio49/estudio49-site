@@ -1,128 +1,114 @@
 {
- "/": {
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(3) > span:nth-of-type(4) > img:nth-of-type(1)": {
-   "d": {
-    "rot": 3
-   }
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)": {
-   "d": {
-    "w": 900,
-    "dx": 78,
-    "dy": -9,
-    "fs": 10
-   }
-  },
-  "#main > section:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1) > span:nth-of-type(1)": {
-   "html": "pra sua empresa"
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(3) > span:nth-of-type(1)": {
-   "html": "<span style=\"--i: 5;\">em um</span>"
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(3) > span:nth-of-type(2) > span:nth-of-type(1)": {
-   "html": "só"
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(3) > span:nth-of-type(3) > span:nth-of-type(1)": {
-   "html": "lugar"
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "Somos um estúdio de Lages (SC) e atendemos empresas e profissionais, como lojas, clínicas e consultórios."
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > h3:nth-of-type(1)": {
-   "html": "um só lugar"
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "Um contato para tudo: sites, sistemas, vídeos e uniformes."
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > h3:nth-of-type(1)": {
-   "html": "estamos por perto"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)": {
-   "html": "sites que trazem clientes"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(1) > h3:nth-of-type(1)": {
-   "html": "vídeos, fotos e instagram"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)": {
-   "d": {
-    "dx": 119,
-    "dy": -55
-   }
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)": {
-   "html": "vídeos"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(1)": {
-   "html": "Ver audiovisual<span class=\"ic ic-arrow\" aria-hidden=\"true\"></span>"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > div:nth-of-type(1) > h3:nth-of-type(1)": {
-   "html": "uniforme com a sua marca"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "Camisetas, polos e moletons com a sua marca, a partir de 7 peças. O valor sai na hora."
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "pra sua empresa aparecer <span class=\"par\">(e)</span> funcionar"
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span><span style=\"font-size: 14.4px;\">sistemas (e) sites (e) audiovisual (e) uniformes</span></span>\n    "
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)": {
-   "html": "Vídeos e redes"
-  },
-  "#menu > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)": {
-   "html": "Sistemas"
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "O site da sua empresa, para ser encontrado no Google e receber contatos pelo WhatsApp a qualquer hora."
-  },
-  "#servicos > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > div:nth-of-type(3) > span:nth-of-type(1)": {
-   "html": "Calcular valores<span class=\"ic ic-arrow\" aria-hidden=\"true\"></span>"
-  }
- },
- "/sistemas/": {
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)": {
-   "html": "Para quem atende clientes todos os dias e quer sair da planilha e do caderno."
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span><span style=\"font-size: 14.4px;\">sistemas (e) sites (e) audiovisual (e) uniformes</span></span>\n    "
-  }
- },
- "/video-e-fotos/": {
-  "#main > section:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)": {
-   "html": "vídeos, fotos e instagram do seu <span class=\"hl\">negócio</span>"
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span><span style=\"font-size: 14.4px;\">sistemas (e) sites (e) audiovisual (e) uniformes</span></span>\n    "
-  }
- },
- "/quem-somos/": {
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)": {
-   "html": "Eu sou o Vini. Por 7 anos, estive no comando da WAZZ, uma marca de roupas que ganhou proporção nacional. Cuidei da direção criativa, do marketing e da administração do negócio, do primeiro desenho até o dia a dia da empresa."
-  },
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span>sistemas (e) sites (e) audiovisual (e) uniformes</span>\n    "
-  },
-  "#main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(3)": {
-   "html": "Agora quero usar toda essa bagagem para ajudar outras empresas. A (e)studio49 nasceu para isso."
-  },
-  "#menu > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)": {
-   "html": "Vídeos e redes"
-  }
- },
- "/contato/": {
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span>sistemas (e) sites (e) audiovisual (e) uniformes</span>\n    "
-  }
- },
- "/uniformes/": {
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span><span style=\"font-size: 14.4px;\">sistemas (e) sites (e) audiovisual (e) uniformes</span></span>\n    "
-  }
- },
- "/sites/": {
-  "body > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)": {
-   "html": "\n      <span>© 2026 (e)studio49</span>\n      <span><span style=\"font-size: 14.4px;\">sistemas (e) sites (e) audiovisual (e) uniformes</span></span>\n    "
-  }
- }
+    "/":  {
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e h2:nth-of-type(1) \u003e span:nth-of-type(3) \u003e span:nth-of-type(4) \u003e img:nth-of-type(1)":  {
+                                                                                                                                                                                             "d":  {
+                                                                                                                                                                                                       "rot":  3
+                                                                                                                                                                                                   }
+                                                                                                                                                                                         },
+              "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(2) \u003e div:nth-of-type(1) \u003e img:nth-of-type(1)":  {
+                                                                                                                                      "d":  {
+                                                                                                                                                "w":  900,
+                                                                                                                                                "dx":  78,
+                                                                                                                                                "dy":  -9,
+                                                                                                                                                "fs":  10
+                                                                                                                                            }
+                                                                                                                                  },
+              "#main \u003e section:nth-of-type(1) \u003e div:nth-of-type(2) \u003e h1:nth-of-type(1) \u003e span:nth-of-type(1)":  {
+                                                                                                                                        "html":  "pra sua empresa"
+                                                                                                                                    },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e h2:nth-of-type(1) \u003e span:nth-of-type(3) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                   "html":  "\u003cspan style=\"--i: 5;\"\u003eem um\u003c/span\u003e"
+                                                                                                                                                               },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e h2:nth-of-type(1) \u003e span:nth-of-type(3) \u003e span:nth-of-type(2) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                                              "html":  "só"
+                                                                                                                                                                                          },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e h2:nth-of-type(1) \u003e span:nth-of-type(3) \u003e span:nth-of-type(3) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                                              "html":  "lugar"
+                                                                                                                                                                                          },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                            "html":  "Somos um estúdio de Lages (SC) e atendemos empresas e profissionais, como lojas, clínicas e consultórios."
+                                                                                                        },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e ul:nth-of-type(1) \u003e li:nth-of-type(1) \u003e h3:nth-of-type(1)":  {
+                                                                                                                                                               "html":  "um só lugar"
+                                                                                                                                                           },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e ul:nth-of-type(1) \u003e li:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                                                                              "html":  "Um contato para tudo: sites, sistemas, redes sociais e uniformes."
+                                                                                                                                                          },
+              "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e ul:nth-of-type(1) \u003e li:nth-of-type(3) \u003e h3:nth-of-type(1)":  {
+                                                                                                                                                               "html":  "estamos por perto"
+                                                                                                                                                           },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(2) \u003e div:nth-of-type(1) \u003e h3:nth-of-type(1)":  {
+                                                                                                                                                               "html":  "sites que trazem clientes"
+                                                                                                                                                           },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(3) \u003e div:nth-of-type(1) \u003e h3:nth-of-type(1)":  {
+                                                                                                                                                               "html":  "social media"
+                                                                                                                                                           },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(3) \u003e div:nth-of-type(2) \u003e div:nth-of-type(1) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                                           "d":  {
+                                                                                                                                                                                                     "dx":  119,
+                                                                                                                                                                                                     "dy":  -55
+                                                                                                                                                                                                 }
+                                                                                                                                                                                       },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(3) \u003e div:nth-of-type(2) \u003e div:nth-of-type(1) \u003e ul:nth-of-type(1) \u003e li:nth-of-type(1)":  {
+                                                                                                                                                                                                                  "html":  "vídeos"
+                                                                                                                                                                                                              },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(3) \u003e div:nth-of-type(3) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                 "html":  "Ver social media\u003cspan class=\"ic ic-arrow\" aria-hidden=\"true\"\u003e\u003c/span\u003e"
+                                                                                                                                                             },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(5) \u003e div:nth-of-type(1) \u003e h3:nth-of-type(1)":  {
+                                                                                                                                                               "html":  "uniforme com a sua marca"
+                                                                                                                                                           },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(5) \u003e div:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                                                                              "html":  "Camisetas, polos e moletons com a sua marca, a partir de 7 peças. O valor sai na hora."
+                                                                                                                                                          },
+              "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e div:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                                                                              "html":  "pra sua empresa aparecer \u003cspan class=\"par\"\u003e(e)\u003c/span\u003e funcionar"
+                                                                                                                                                          },
+              "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                            "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003e\u003cspan style=\"font-size: 14.4px;\"\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\u003c/span\u003e\n    "
+                                                                                                        },
+              "#menu \u003e ul:nth-of-type(1) \u003e li:nth-of-type(1) \u003e a:nth-of-type(1)":  {
+                                                                                                      "html":  "Sistemas"
+                                                                                                  },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(2) \u003e div:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                                                                              "html":  "O site da sua empresa, para ser encontrado no Google e receber contatos pelo WhatsApp a qualquer hora."
+                                                                                                                                                          },
+              "#servicos \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e a:nth-of-type(5) \u003e div:nth-of-type(3) \u003e span:nth-of-type(1)":  {
+                                                                                                                                                                 "html":  "Calcular valores\u003cspan class=\"ic ic-arrow\" aria-hidden=\"true\"\u003e\u003c/span\u003e"
+                                                                                                                                                             }
+          },
+    "/sistemas/":  {
+                       "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e div:nth-of-type(1) \u003e p:nth-of-type(1)":  {
+                                                                                                                                               "html":  "Para quem atende clientes todos os dias e quer sair da planilha e do caderno."
+                                                                                                                                           },
+                       "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                                     "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003e\u003cspan style=\"font-size: 14.4px;\"\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\u003c/span\u003e\n    "
+                                                                                                                 }
+                   },
+    "/quem-somos/":  {
+                         "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e p:nth-of-type(1)":  {
+                                                                                                                                                 "html":  "Eu sou o Vini. Por 7 anos, estive no comando da WAZZ, uma marca de roupas que ganhou proporção nacional. Cuidei da direção criativa, do marketing e da administração do negócio, do primeiro desenho até o dia a dia da empresa."
+                                                                                                                                             },
+                         "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                                       "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\n    "
+                                                                                                                   },
+                         "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e p:nth-of-type(3)":  {
+                                                                                                                                                 "html":  "Agora quero usar toda essa bagagem para ajudar outras empresas. A (e)studio49 nasceu para isso."
+                                                                                                                                             }
+                     },
+    "/contato/":  {
+                      "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                                    "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\n    "
+                                                                                                                }
+                  },
+    "/uniformes/":  {
+                        "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                                      "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003e\u003cspan style=\"font-size: 14.4px;\"\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\u003c/span\u003e\n    "
+                                                                                                                  }
+                    },
+    "/sites/":  {
+                    "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
+                                                                                                                  "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003e\u003cspan style=\"font-size: 14.4px;\"\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\u003c/span\u003e\n    "
+                                                                                                              }
+                }
 }
