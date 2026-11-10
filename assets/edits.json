@@ -86,15 +86,9 @@
                                                                                                                  }
                    },
     "/quem-somos/":  {
-                         "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e p:nth-of-type(1)":  {
-                                                                                                                                                 "html":  "Eu sou o Vini. Por 7 anos, estive no comando da WAZZ, uma marca de roupas que ganhou proporção nacional. Cuidei da direção criativa, do marketing e da administração do negócio, do primeiro desenho até o dia a dia da empresa."
-                                                                                                                                             },
                          "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
                                                                                                                        "html":  "\n      \u003cspan\u003e© 2026 (e)studio49\u003c/span\u003e\n      \u003cspan\u003esistemas (e) sites (e) social media (e) tráfego pago (e) uniformes\u003c/span\u003e\n    "
-                                                                                                                   },
-                         "#main \u003e section:nth-of-type(2) \u003e div:nth-of-type(1) \u003e div:nth-of-type(2) \u003e p:nth-of-type(3)":  {
-                                                                                                                                                 "html":  "Agora quero usar toda essa bagagem para ajudar outras empresas. A (e)studio49 nasceu para isso."
-                                                                                                                                             }
+                                                                                                                   }
                      },
     "/contato/":  {
                       "body \u003e footer:nth-of-type(1) \u003e div:nth-of-type(1) \u003e div:nth-of-type(3)":  {
